@@ -26,13 +26,13 @@ Latest version is 1.0.0
 $ gem install cocoapods
 ```
 
-To integrate the Kontakt.io iOS/tvOS/macOS SDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate the Kontakt.io's ProximitySDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ``` ruby
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'KontaktSDK', '~> 1.4'
+pod 'KontaktProximitySDK', '~> 1.0'
 ```
 
 Then, run the following command:
