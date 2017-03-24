@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>KTKProximityManagerDelegate Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/prism.css">
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/format.js"></script>
+	<script src="../js/prism.js" data-manual></script>
+	<script>
+		jQuery.noConflict();
+		jQuery( document ).ready(function( $ ) {
+ 			$("pre code").each(function(i, block) {
+				$(this).addClass("language-objectivec")
+				$(this).formatObjectiveC();
+			});
+
+			Prism.highlightAll()
+		});
+	</script>
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">ProximitySDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Kontakt.io</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/proximityManager:didEnterBeaconRegion:withBeacons:">- proximityManager:didEnterBeaconRegion:withBeacons:</option>
+		
+		<option value="//api/name/proximityManager:didEnterEddystoneRegion:withEddystones:">- proximityManager:didEnterEddystoneRegion:withEddystones:</option>
+		
+		<option value="//api/name/proximityManager:didExecuteTrigger:error:">- proximityManager:didExecuteTrigger:error:</option>
+		
+		<option value="//api/name/proximityManager:didExitBeaconRegion:">- proximityManager:didExitBeaconRegion:</option>
+		
+		<option value="//api/name/proximityManager:didExitEddystoneRegion:">- proximityManager:didExitEddystoneRegion:</option>
+		
+		<option value="//api/name/proximityManager:didFailDiscovery:">- proximityManager:didFailDiscovery:</option>
+		
+		<option value="//api/name/proximityManager:didFailMonitoringFor:withError:">- proximityManager:didFailMonitoringFor:withError:</option>
+		
+		<option value="//api/name/proximityManager:triggersInitDidFail:">- proximityManager:triggersInitDidFail:</option>
+		
+		<option value="//api/name/proximityManager:triggersSyncDidFail:">- proximityManager:triggersSyncDidFail:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">KTKProximityManagerDelegate Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>KTKProximityManager.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Triggers" name="task_Triggers"></a>
+						<h2 class="task-title">Triggers</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/proximityManager:didExecuteTrigger:error:" title="proximityManager:didExecuteTrigger:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:didExecuteTrigger:error:">&ndash;&nbsp;proximityManager:didExecuteTrigger:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> didExecuteTrigger:(KTKTrigger *_Nullable)<em>trigger</em> error:(NSError *_Nullable)<em>error</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/proximityManager:triggersInitDidFail:" title="proximityManager:triggersInitDidFail:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:triggersInitDidFail:">&ndash;&nbsp;proximityManager:triggersInitDidFail:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> triggersInitDidFail:(NSError *)<em>error</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/proximityManager:triggersSyncDidFail:" title="proximityManager:triggersSyncDidFail:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:triggersSyncDidFail:">&ndash;&nbsp;proximityManager:triggersSyncDidFail:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> triggersSyncDidFail:(NSError *)<em>error</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="iBeacon Regions" name="task_iBeacon Regions"></a>
+						<h2 class="task-title">iBeacon Regions</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/proximityManager:didEnterBeaconRegion:withBeacons:" title="proximityManager:didEnterBeaconRegion:withBeacons:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:didEnterBeaconRegion:withBeacons:">&ndash;&nbsp;proximityManager:didEnterBeaconRegion:withBeacons:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> didEnterBeaconRegion:(__kindof KTKBeaconRegion *)<em>region</em> withBeacons:(NSArray&lt;CLBeacon*&gt; *)<em>beacons</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/proximityManager:didExitBeaconRegion:" title="proximityManager:didExitBeaconRegion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:didExitBeaconRegion:">&ndash;&nbsp;proximityManager:didExitBeaconRegion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> didExitBeaconRegion:(__kindof KTKBeaconRegion *)<em>region</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/proximityManager:didFailMonitoringFor:withError:" title="proximityManager:didFailMonitoringFor:withError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:didFailMonitoringFor:withError:">&ndash;&nbsp;proximityManager:didFailMonitoringFor:withError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> didFailMonitoringFor:(__kindof KTKBeaconRegion *_Nullable)<em>region</em> withError:(NSError *)<em>error</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Eddystone Regions" name="task_Eddystone Regions"></a>
+						<h2 class="task-title">Eddystone Regions</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/proximityManager:didEnterEddystoneRegion:withEddystones:" title="proximityManager:didEnterEddystoneRegion:withEddystones:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:didEnterEddystoneRegion:withEddystones:">&ndash;&nbsp;proximityManager:didEnterEddystoneRegion:withEddystones:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> didEnterEddystoneRegion:(__kindof KTKEddystoneRegion *)<em>region</em> withEddystones:(NSSet&lt;KTKEddystone*&gt; *)<em>eddystones</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/proximityManager:didExitEddystoneRegion:" title="proximityManager:didExitEddystoneRegion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:didExitEddystoneRegion:">&ndash;&nbsp;proximityManager:didExitEddystoneRegion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> didExitEddystoneRegion:(__kindof KTKEddystoneRegion *)<em>region</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/proximityManager:didFailDiscovery:" title="proximityManager:didFailDiscovery:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/proximityManager:didFailDiscovery:">&ndash;&nbsp;proximityManager:didFailDiscovery:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><pre><code>- (void)proximityManager:(KTKProximityManager *)<em>manager</em> didFailDiscovery:(NSError *)<em>error</em></code></pre></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 Kontakt.io. All rights reserved. Updated: 2017-03-24</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

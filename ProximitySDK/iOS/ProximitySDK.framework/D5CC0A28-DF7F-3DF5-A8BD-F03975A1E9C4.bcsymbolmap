@@ -1,0 +1,414 @@
+BCSymbolMap Version: 2.0
+-[KTKProximityRegionAPI init]
+-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]
+___75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke.19
+___copy_helper_block_
+___destroy_helper_block_
+___75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke.26
+___copy_helper_block_.27
+___destroy_helper_block_.28
+___75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke.30
+___copy_helper_block_.31
+___destroy_helper_block_.32
+___75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke.34
+___copy_helper_block_.35
+___destroy_helper_block_.36
+___copy_helper_block_.39
+___destroy_helper_block_.40
+-[KTKProximityRegionAPI proximityBeaconRegions]
+-[KTKProximityRegionAPI proximityBeaconRegionsWithBeaconRegion:triggerable:]
+-[KTKProximityRegionAPI proximityBeaconRegionsFrom:triggerable:]
+-[KTKProximityRegionAPI saveProximityBeaconRegions:triggerable:withCompletion:]
+___79-[KTKProximityRegionAPI saveProximityBeaconRegions:triggerable:withCompletion:]_block_invoke
+___copy_helper_block_.69
+___destroy_helper_block_.70
+-[KTKProximityRegionAPI proximityEddystoneRegions]
+-[KTKProximityRegionAPI proximityEddystoneRegionsWithEddystoneRegion:triggerable:]
+-[KTKProximityRegionAPI proximityEddystoneRegionsFrom:triggerable:]
+-[KTKProximityRegionAPI saveProximityEddystoneRegions:triggerable:withCompletion:]
+___82-[KTKProximityRegionAPI saveProximityEddystoneRegions:triggerable:withCompletion:]_block_invoke
+___copy_helper_block_.73
+___destroy_helper_block_.74
+-[KTKProximityRegionAPI resolver]
+-[KTKProximityRegionAPI setResolver:]
+-[KTKProximityRegionAPI storeManager]
+-[KTKProximityRegionAPI setStoreManager:]
+-[KTKProximityRegionAPI .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.29
+___block_descriptor_tmp.33
+___block_descriptor_tmp.38
+___block_descriptor_tmp.42
+___block_descriptor_tmp.71
+___block_descriptor_tmp.75
+_OBJC_IVAR_$_KTKProximityRegionAPI._resolver
+_OBJC_IVAR_$_KTKProximityRegionAPI._storeManager
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/APIs/KTKProximityRegionAPI.m
+/Users/stoprocent/Development/ios-sdk/KontaktSDK
+__destroy_helper_block_
+__copy_helper_block_
+__82-[KTKProximityRegionAPI saveProximityEddystoneRegions:triggerable:withCompletion:]_block_invoke
+__79-[KTKProximityRegionAPI saveProximityBeaconRegions:triggerable:withCompletion:]_block_invoke
+__75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke.34
+__75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke.30
+__75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke.26
+__75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke.19
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__75-[KTKProximityRegionAPI createProximityRegionsFromTriggers:withCompletion:]_block_invoke
+-[KTKProximityRegionsResolver init]
+-[KTKProximityRegionsResolver resolveRegionsFromTriggers:withCompletion:]
+___73-[KTKProximityRegionsResolver resolveRegionsFromTriggers:withCompletion:]_block_invoke
+-[KTKProximityRegionsResolver trackingIdsDictFromTriggers:]
+-[KTKProximityRegionsResolver buildTriggersDictFrom:]
+-[KTKProximityRegionsResolver resolveProximityBeaconRegionsFromTriggers:]
+-[KTKProximityRegionsResolver resolveProximityEddystoneRegionsFromTriggers:]
+-[KTKProximityRegionsResolver resolveProximityRegionsFromDevices:trackingIdsDict:]
+-[KTKProximityRegionsResolver createOrUpdateProximityBeaconRegion:triggerIDs:]
+-[KTKProximityRegionsResolver createOrUpdateProximityEddystoneRegion:triggerIDs:]
+-[KTKProximityRegionsResolver cloudClient]
+-[KTKProximityRegionsResolver setCloudClient:]
+-[KTKProximityRegionsResolver proximityRegions]
+-[KTKProximityRegionsResolver setProximityRegions:]
+-[KTKProximityRegionsResolver .cxx_destruct]
+_OBJC_IVAR_$_KTKProximityRegionsResolver._cloudClient
+_OBJC_IVAR_$_KTKProximityRegionsResolver._proximityRegions
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Resolver/KTKProximityRegionsResolver.m
+__73-[KTKProximityRegionsResolver resolveRegionsFromTriggers:withCompletion:]_block_invoke
+-[KTKTriggerEvent initWithTriggerID:]
+-[KTKTriggerEvent initWithTriggerID:timestamp:]
+-[KTKTriggerEvent mappedData]
+-[KTKTriggerEvent triggerID]
+-[KTKTriggerEvent setTriggerID:]
+-[KTKTriggerEvent timestamp]
+-[KTKTriggerEvent setTimestamp:]
+-[KTKTriggerEvent context]
+-[KTKTriggerEvent setContext:]
+-[KTKTriggerEvent .cxx_destruct]
+_OBJC_IVAR_$_KTKTriggerEvent._triggerID
+_OBJC_IVAR_$_KTKTriggerEvent._timestamp
+_OBJC_IVAR_$_KTKTriggerEvent._context
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Model/KTKTriggerEvent.m
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Model/KTKTriggerEvent.h
+-[KTKTriggerAPI init]
+-[KTKTriggerAPI initWithDelegate:]
+-[KTKTriggerAPI fetchProximityTriggersWithCompletion:]
+___54-[KTKTriggerAPI fetchProximityTriggersWithCompletion:]_block_invoke
+-[KTKTriggerAPI triggers]
+-[KTKTriggerAPI triggersWithType:]
+-[KTKTriggerAPI failedTriggers]
+-[KTKTriggerAPI triggersETag]
+-[KTKTriggerAPI saveTriggers:withCompletion:]
+___45-[KTKTriggerAPI saveTriggers:withCompletion:]_block_invoke
+___copy_helper_block_.57
+___destroy_helper_block_.58
+-[KTKTriggerAPI saveFailedTrigger:]
+___35-[KTKTriggerAPI saveFailedTrigger:]_block_invoke
+-[KTKTriggerAPI removeFailedTrigger:]
+___37-[KTKTriggerAPI removeFailedTrigger:]_block_invoke
+-[KTKTriggerAPI saveTriggersETag:]
+-[KTKTriggerAPI executeTrigger:]
+___32-[KTKTriggerAPI executeTrigger:]_block_invoke
+___copy_helper_block_.86
+___destroy_helper_block_.87
+-[KTKTriggerAPI executeTrigger:withCompletion:]
+___47-[KTKTriggerAPI executeTrigger:withCompletion:]_block_invoke
+___copy_helper_block_.135
+___destroy_helper_block_.136
+-[KTKTriggerAPI startObservingForTriggersSync]
+-[KTKTriggerAPI stopObservingForTriggersSync]
+-[KTKTriggerAPI syncTriggers]
+___29-[KTKTriggerAPI syncTriggers]_block_invoke
+___copy_helper_block_.164
+___destroy_helper_block_.165
+___29-[KTKTriggerAPI syncTriggers]_block_invoke.171
+___copy_helper_block_.174
+___destroy_helper_block_.175
+-[KTKTriggerAPI URLSession:didBecomeInvalidWithError:]
+-[KTKTriggerAPI delegate]
+-[KTKTriggerAPI setDelegate:]
+-[KTKTriggerAPI storeManager]
+-[KTKTriggerAPI setStoreManager:]
+-[KTKTriggerAPI cloudClient]
+-[KTKTriggerAPI setCloudClient:]
+-[KTKTriggerAPI defaults]
+-[KTKTriggerAPI setDefaults:]
+-[KTKTriggerAPI .cxx_destruct]
+___block_descriptor_tmp.60
+___block_descriptor_tmp.73
+___block_literal_global
+___block_descriptor_tmp.76
+___block_literal_global.77
+___block_descriptor_tmp.88
+___block_descriptor_tmp.138
+___block_descriptor_tmp.166
+___block_descriptor_tmp.176
+_OBJC_IVAR_$_KTKTriggerAPI._delegate
+_OBJC_IVAR_$_KTKTriggerAPI._storeManager
+_OBJC_IVAR_$_KTKTriggerAPI._cloudClient
+_OBJC_IVAR_$_KTKTriggerAPI._defaults
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/APIs/KTKTriggerAPI.m
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/APIs/KTKTriggerAPI.h
+__29-[KTKTriggerAPI syncTriggers]_block_invoke.171
+__29-[KTKTriggerAPI syncTriggers]_block_invoke
+__47-[KTKTriggerAPI executeTrigger:withCompletion:]_block_invoke
+__32-[KTKTriggerAPI executeTrigger:]_block_invoke
+__37-[KTKTriggerAPI removeFailedTrigger:]_block_invoke
+__35-[KTKTriggerAPI saveFailedTrigger:]_block_invoke
+__45-[KTKTriggerAPI saveTriggers:withCompletion:]_block_invoke
+__54-[KTKTriggerAPI fetchProximityTriggersWithCompletion:]_block_invoke
+-[KTKProximityManager init]
+-[KTKProximityManager initWithDelegate:]
+-[KTKProximityManager monitorTriggersWithBlock:]
+-[KTKProximityManager monitorTriggers]
+___38-[KTKProximityManager monitorTriggers]_block_invoke
+___38-[KTKProximityManager monitorTriggers]_block_invoke_2
+___copy_helper_block_.58
+___destroy_helper_block_.59
+-[KTKProximityManager monitorBeaconRegion:onEnter:onExit:]
+-[KTKProximityManager monitorBeaconRegion:]
+-[KTKProximityManager monitorBeaconRegions:onEnter:onExit:]
+-[KTKProximityManager monitorBeaconRegions:]
+___44-[KTKProximityManager monitorBeaconRegions:]_block_invoke
+___copy_helper_block_.82
+___destroy_helper_block_.83
+-[KTKProximityManager monitorEddystoneRegion:onEnter:onExit:]
+-[KTKProximityManager monitorEddystoneRegion:]
+-[KTKProximityManager monitorEddystoneRegions:onEnter:onExit:]
+-[KTKProximityManager monitorEddystoneRegions:]
+___47-[KTKProximityManager monitorEddystoneRegions:]_block_invoke
+___copy_helper_block_.100
+___destroy_helper_block_.101
+-[KTKProximityManager stop]
+-[KTKProximityManager reset]
+-[KTKProximityManager beaconManager:monitoringDidFailForRegion:withError:]
+-[KTKProximityManager beaconManager:didEnterRegion:]
+-[KTKProximityManager beaconManager:didExitRegion:]
+-[KTKProximityManager beaconManager:didRangeBeacons:inRegion:]
+-[KTKProximityManager eddystoneManager:didDiscoverEddystones:inRegion:]
+-[KTKProximityManager eddystoneManagerDidFailToStartDiscovery:withError:]
+-[KTKProximityManager triggerAPI:triggersDidChange:]
+___52-[KTKProximityManager triggerAPI:triggersDidChange:]_block_invoke
+___copy_helper_block_.156
+___destroy_helper_block_.157
+-[KTKProximityManager triggerAPI:didExecuteTrigger:error:]
+-[KTKProximityManager synchronizeScanSetup]
+-[KTKProximityManager startScan]
+-[KTKProximityManager handleTriggerInitError:]
+-[KTKProximityManager handleTriggersForBeaconRegion:withEvent:]
+-[KTKProximityManager handleTriggersForEddystoneRegion:withEvent:]
+-[KTKProximityManager handleBeaconRegion:withBeacons:forEvent:]
+-[KTKProximityManager handleMonitoringError:forRegions:]
+-[KTKProximityManager performBeaconRegionEntered:withBeacons:]
+-[KTKProximityManager performBeaconRegionExit:]
+-[KTKProximityManager handleDiscoveryError:]
+-[KTKProximityManager handleDelayedExitFromEddystoneRegion:]
+-[KTKProximityManager performEddystoneRegionExitEvent:]
+-[KTKProximityManager handleEddystoneRegion:withEddystones:forEvent:]
+-[KTKProximityManager performEddystoneRegionEntered:withEddystones:]
+-[KTKProximityManager performEddystoneRegionExit:]
+-[KTKProximityManager errorWithCode:]
+-[KTKProximityManager delegate]
+-[KTKProximityManager setDelegate:]
+-[KTKProximityManager triggerBlock]
+-[KTKProximityManager setTriggerBlock:]
+-[KTKProximityManager beaconRegionEnteredBlock]
+-[KTKProximityManager setBeaconRegionEnteredBlock:]
+-[KTKProximityManager beaconRegionExitBlock]
+-[KTKProximityManager setBeaconRegionExitBlock:]
+-[KTKProximityManager eddystoneRegionEnteredBlock]
+-[KTKProximityManager setEddystoneRegionEnteredBlock:]
+-[KTKProximityManager eddystoneRegionExitBlock]
+-[KTKProximityManager setEddystoneRegionExitBlock:]
+-[KTKProximityManager scanCoordinator]
+-[KTKProximityManager setScanCoordinator:]
+-[KTKProximityManager proximityRegionAPI]
+-[KTKProximityManager setProximityRegionAPI:]
+-[KTKProximityManager triggersAPI]
+-[KTKProximityManager setTriggersAPI:]
+-[KTKProximityManager rangedRegionsCounters]
+-[KTKProximityManager setRangedRegionsCounters:]
+-[KTKProximityManager eddystoneRegionEvents]
+-[KTKProximityManager setEddystoneRegionEvents:]
+-[KTKProximityManager eddystoneRegionExitTimers]
+-[KTKProximityManager setEddystoneRegionExitTimers:]
+-[KTKProximityManager scanTimer]
+-[KTKProximityManager setScanTimer:]
+-[KTKProximityManager .cxx_destruct]
+___block_descriptor_tmp.61
+___block_descriptor_tmp.85
+___block_descriptor_tmp.102
+___block_descriptor_tmp.158
+_OBJC_IVAR_$_KTKProximityManager._delegate
+_OBJC_IVAR_$_KTKProximityManager._triggerBlock
+_OBJC_IVAR_$_KTKProximityManager._beaconRegionEnteredBlock
+_OBJC_IVAR_$_KTKProximityManager._beaconRegionExitBlock
+_OBJC_IVAR_$_KTKProximityManager._eddystoneRegionEnteredBlock
+_OBJC_IVAR_$_KTKProximityManager._eddystoneRegionExitBlock
+_OBJC_IVAR_$_KTKProximityManager._scanCoordinator
+_OBJC_IVAR_$_KTKProximityManager._proximityRegionAPI
+_OBJC_IVAR_$_KTKProximityManager._triggersAPI
+_OBJC_IVAR_$_KTKProximityManager._rangedRegionsCounters
+_OBJC_IVAR_$_KTKProximityManager._eddystoneRegionEvents
+_OBJC_IVAR_$_KTKProximityManager._eddystoneRegionExitTimers
+_OBJC_IVAR_$_KTKProximityManager._scanTimer
+l_OBJC_PROTOCOL_$_KTKBeaconManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_KTKBeaconManagerDelegate
+l_OBJC_PROTOCOL_$_KTKEddystoneManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_KTKEddystoneManagerDelegate
+l_OBJC_PROTOCOL_$_KTKTriggerAPIDelegate
+l_OBJC_LABEL_PROTOCOL_$_KTKTriggerAPIDelegate
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Manager/KTKProximityManager.m
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Manager/KTKProximityManager.h
+__52-[KTKProximityManager triggerAPI:triggersDidChange:]_block_invoke
+__47-[KTKProximityManager monitorEddystoneRegions:]_block_invoke
+__44-[KTKProximityManager monitorBeaconRegions:]_block_invoke
+__38-[KTKProximityManager monitorTriggers]_block_invoke_2
+__38-[KTKProximityManager monitorTriggers]_block_invoke
++[KTKRegionBuilder buildBeaconRegionFromTrigger:]
++[KTKRegionBuilder buildEddystoneRegionFromTrigger:]
++[KTKRegionBuilder buildBeaconRegionFromDevice:]
++[KTKRegionBuilder buildEddystoneRegionFromDevice:]
++[KTKRegionBuilder buildProximityBeaconRegionsFrom:]
++[KTKRegionBuilder buildProximityBeaconRegionFrom:]
++[KTKRegionBuilder buildProximityEddystoneRegionsFrom:]
++[KTKRegionBuilder buildProximityEddystoneRegionFrom:]
++[KTKRegionBuilder buildBeaconRegionWithProximityUUID:major:minor:]
++[KTKRegionBuilder buildEddystoneRegionWithNamespaceID:instanceID:]
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Builder/KTKRegionBuilder.m
+-[KTKProximityEddystoneRegion initWithRegion:]
+-[KTKProximityEddystoneRegion initWithRegion:triggerIDs:]
+-[KTKProximityEddystoneRegion attachTriggers:]
+-[KTKProximityEddystoneRegion isTriggerable]
+-[KTKProximityEddystoneRegion triggerIDs]
+-[KTKProximityEddystoneRegion copyWithZone:]
++[KTKProximityEddystoneRegion supportsSecureCoding]
+-[KTKProximityEddystoneRegion encodeWithCoder:]
+-[KTKProximityEddystoneRegion initWithCoder:]
+-[KTKProximityEddystoneRegion region]
+-[KTKProximityEddystoneRegion setRegion:]
+-[KTKProximityEddystoneRegion internalTriggerIDs]
+-[KTKProximityEddystoneRegion setInternalTriggerIDs:]
+-[KTKProximityEddystoneRegion .cxx_destruct]
+_OBJC_IVAR_$_KTKProximityEddystoneRegion._region
+_OBJC_IVAR_$_KTKProximityEddystoneRegion._internalTriggerIDs
+_OBJC_IVAR_$_KTKProximityEddystoneRegion._triggerIDs
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+l_OBJC_PROTOCOL_$_NSSecureCoding
+l_OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+l_OBJC_PROTOCOL_$_KTKProximityRegion
+l_OBJC_LABEL_PROTOCOL_$_KTKProximityRegion
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Model/KTKProximityEddystoneRegion.m
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Model/KTKProximityEddystoneRegion.h
++[KTKStoreManager sharedInstance]
+___33+[KTKStoreManager sharedInstance]_block_invoke
+-[KTKStoreManager init]
+-[KTKStoreManager storeData:forKey:withCompletion:]
+___51-[KTKStoreManager storeData:forKey:withCompletion:]_block_invoke
+___51-[KTKStoreManager storeData:forKey:withCompletion:]_block_invoke_2
+___copy_helper_block_.32
+___destroy_helper_block_.33
+-[KTKStoreManager restoreDataFromKey:]
+-[KTKStoreManager clearDataForKey:]
+-[KTKStoreManager clearData]
+-[KTKStoreManager storeData:forKey:]
+-[KTKStoreManager filePathFromKey:]
+-[KTKStoreManager fileManager]
+-[KTKStoreManager setFileManager:]
+-[KTKStoreManager memoryCache]
+-[KTKStoreManager setMemoryCache:]
+-[KTKStoreManager .cxx_destruct]
+___ktk_store_manager_files_queue_block_invoke
+_sharedInstance._sharedInstance
+_sharedInstance.onceToken
+___block_descriptor_tmp.34
+___block_descriptor_tmp.37
+_OBJC_IVAR_$_KTKStoreManager._fileManager
+_OBJC_IVAR_$_KTKStoreManager._memoryCache
+_ktk_store_manager_files_queue.ktk_store_manager_files_queue
+_ktk_store_manager_files_queue.onceToken
+___block_descriptor_tmp.93
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Store/KTKStoreManager.m
+__ktk_store_manager_files_queue_block_invoke
+__51-[KTKStoreManager storeData:forKey:withCompletion:]_block_invoke_2
+__51-[KTKStoreManager storeData:forKey:withCompletion:]_block_invoke
+ktk_store_manager_files_queue
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/dispatch/once.h
+__33+[KTKStoreManager sharedInstance]_block_invoke
+-[KTKProximityBeaconRegion initWithRegion:]
+-[KTKProximityBeaconRegion initWithRegion:triggerIDs:]
+-[KTKProximityBeaconRegion attachTriggers:]
+-[KTKProximityBeaconRegion isTriggerable]
+-[KTKProximityBeaconRegion triggerIDs]
+-[KTKProximityBeaconRegion copyWithZone:]
++[KTKProximityBeaconRegion supportsSecureCoding]
+-[KTKProximityBeaconRegion encodeWithCoder:]
+-[KTKProximityBeaconRegion initWithCoder:]
+-[KTKProximityBeaconRegion region]
+-[KTKProximityBeaconRegion setRegion:]
+-[KTKProximityBeaconRegion internalTriggerIDs]
+-[KTKProximityBeaconRegion setInternalTriggerIDs:]
+-[KTKProximityBeaconRegion .cxx_destruct]
+_OBJC_IVAR_$_KTKProximityBeaconRegion._region
+_OBJC_IVAR_$_KTKProximityBeaconRegion._internalTriggerIDs
+_OBJC_IVAR_$_KTKProximityBeaconRegion._triggerIDs
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Model/KTKProximityBeaconRegion.m
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Model/KTKProximityBeaconRegion.h
+-[KTKScanCoordinator initWithBeaconManagerDelegate:eddystoneManagerDelegate:]
+-[KTKScanCoordinator startScanForBeaconRegions:eddystoneRegions:]
+-[KTKScanCoordinator stopScan]
+-[KTKScanCoordinator startRangingBeaconsInRegion:]
+-[KTKScanCoordinator stopRangingBeaconsInRegion:]
+-[KTKScanCoordinator extractBeaconRegionsFrom:]
+-[KTKScanCoordinator startBeaconsMonitoringInRegions:]
+-[KTKScanCoordinator stopBeaconsMonitoring]
+-[KTKScanCoordinator extractEddystoneRegionsFrom:]
+-[KTKScanCoordinator startDelayedEddystonesDiscoveryInRegions:]
+-[KTKScanCoordinator startEddystonesDiscovery:]
+-[KTKScanCoordinator startEddystonesDiscoveryInRegions:]
+-[KTKScanCoordinator stopEddystonesDiscovery]
+-[KTKScanCoordinator eddystonesDiscoveryDelay]
+-[KTKScanCoordinator setEddystonesDiscoveryDelay:]
+-[KTKScanCoordinator beaconManager]
+-[KTKScanCoordinator setBeaconManager:]
+-[KTKScanCoordinator eddystoneManager]
+-[KTKScanCoordinator setEddystoneManager:]
+-[KTKScanCoordinator eddystoneTimer]
+-[KTKScanCoordinator setEddystoneTimer:]
+-[KTKScanCoordinator .cxx_destruct]
+_OBJC_IVAR_$_KTKScanCoordinator._eddystonesDiscoveryDelay
+_OBJC_IVAR_$_KTKScanCoordinator._beaconManager
+_OBJC_IVAR_$_KTKScanCoordinator._eddystoneManager
+_OBJC_IVAR_$_KTKScanCoordinator._eddystoneTimer
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Coordinator/KTKScanCoordinator.m
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Coordinator/KTKScanCoordinator.h
+-[KTKEddystoneRegionEvent initWithRegion:eddystones:eventType:]
+-[KTKEddystoneRegionEvent copyWithZone:]
++[KTKEddystoneRegionEvent supportsSecureCoding]
+-[KTKEddystoneRegionEvent encodeWithCoder:]
+-[KTKEddystoneRegionEvent initWithCoder:]
+-[KTKEddystoneRegionEvent region]
+-[KTKEddystoneRegionEvent setRegion:]
+-[KTKEddystoneRegionEvent eddystones]
+-[KTKEddystoneRegionEvent setEddystones:]
+-[KTKEddystoneRegionEvent eventType]
+-[KTKEddystoneRegionEvent setEventType:]
+-[KTKEddystoneRegionEvent .cxx_destruct]
+_OBJC_IVAR_$_KTKEddystoneRegionEvent._region
+_OBJC_IVAR_$_KTKEddystoneRegionEvent._eddystones
+_OBJC_IVAR_$_KTKEddystoneRegionEvent._eventType
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Model/KTKEddystoneRegionEvent.m
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/ProximitySDK/Model/KTKEddystoneRegionEvent.h
+/Users/stoprocent/Development/ios-sdk/KontaktSDK/build/KontaktSDK.build/Release-iphoneos/ProximitySDK.build/DerivedSources/ProximitySDK_vers.c
