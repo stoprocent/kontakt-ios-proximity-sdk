@@ -18,7 +18,38 @@ Latest version is 1.0.0
 
 ## Setup
 
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+``` bash
+$ gem install cocoapods
+```
+
+To integrate the Kontakt.io iOS/tvOS/macOS SDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+``` ruby
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'KontaktSDK', '~> 1.4'
+```
+
+Then, run the following command:
+
+``` bash
+$ pod install
+```
+
+### Carthage
+
 TODO
+
+### Manually
+
+TODO
+
+---
 
 ## Before you start
 
