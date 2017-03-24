@@ -14,7 +14,7 @@ The Kontakt.io Proximity SDK provides the simplest way to manage triggers and al
 
 ## Latest Version
 
-Latest version is 1.0.0
+Latest version is 1.0.1
 
 ## Setup
 
