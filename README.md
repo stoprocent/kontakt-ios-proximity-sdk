@@ -53,7 +53,7 @@ TODO
 
 ## Before you start
 
-Remember that you need to include [KontaktSDK](https://github.com/kontaktio/kontakt-ios-sdk) at first because the new SDK is built upon it. The latest version of ProximitySDK is compatible with [KontaktSDK version 1.4.3](https://github.com/kontaktio/kontakt-ios-sdk/releases/tag/v1.4.3).
+Remember that you need to include [KontaktSDK](https://github.com/kontaktio/kontakt-ios-sdk) at first because the new SDK is built upon it. The latest version of ProximitySDK is compatible with [KontaktSDK version 1.4.4](https://github.com/kontaktio/kontakt-ios-sdk/releases/tag/v1.4.4).
 
 ## Usage
 
